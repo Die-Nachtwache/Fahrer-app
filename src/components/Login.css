@@ -1,0 +1,26 @@
+.login-container {
+    background: #1e1e1e;
+    color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.5);
+}
+input, button {
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    transition: background-color 0.3s ease;
+}
+input:focus {
+    background-color: #282828;
+}
+button {
+    background-color: #00ffff;
+    color: #000;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #008b8b;
+}
